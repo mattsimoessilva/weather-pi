@@ -44,10 +44,11 @@ Before using WeatherPI, ensure you have the following:
 
 - You can configure the GPIO pin and sensor type by modifying the variables in the `sensor_read.py` script.
 
-  Define the type of the sensor (DHT11 or DHT22)
+  ```python
+  # Define the type of the sensor (DHT11 or DHT22)
   sensor = Adafruit_DHT.DHT11
 
-  Define the GPIO pin to which the sensor is connected
+  # Define the GPIO pin to which the sensor is connected
   pin = 4  # You can adjust the pin number according to your setup
 
 ## Contributing
